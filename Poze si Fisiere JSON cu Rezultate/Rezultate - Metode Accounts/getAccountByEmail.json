@@ -1,0 +1,41 @@
+[
+  {
+    "account": {
+      "id": 2,
+      "last_name": "Bratu",
+      "first_name": "Denisa",
+      "user_name": "bratuDenisa99",
+      "user_email": "bratuDenisa@gmail.com",
+      "links": {
+        "self": {
+          "href": "/api/medicineProject/accounts/2",
+          "type": "GET"
+        },
+        "update_last_name": {
+          "href": "/api/medicineProject/accounts/2/last_name",
+          "type": "PUT"
+        },
+        "update_first_name": {
+          "href": "/api/medicineProject/accounts/2/first_name",
+          "type": "PUT"
+        },
+        "update_user_name": {
+          "href": "/api/medicineProject/accounts/2/user_name",
+          "type": "PUT"
+        },
+        "update_user_email": {
+          "href": "/api/medicineProject/accounts/2/user_email",
+          "type": "PUT"
+        },
+        "update_password": {
+          "href": "/api/medicineProject/accounts/2/password",
+          "type": "PUT"
+        },
+        "delete account": {
+          "href": "/api/medicineProject/accounts/2",
+          "type": "DELETE"
+        }
+      }
+    }
+  }
+]

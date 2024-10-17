@@ -1,0 +1,122 @@
+{
+  "doctors": [
+    {
+      "appointment": {
+        "id": 2,
+        "id_patient": {
+          "__data__": {
+            "cnp": "1661212033998",
+            "lastName": "Odobescu",
+            "firstName": "Gabriel",
+            "email": "gabrielOdobescu@gmail.com",
+            "phoneNumber": "0746765911",
+            "age": 58,
+            "birthday": "1966-12-12",
+            "is_active": true
+          },
+          "_dirty": [],
+          "__rel__": {}
+        },
+        "id_doctor": {
+          "__data__": {
+            "id": 4,
+            "last_name": "Voiculescu",
+            "first_name": "Dan",
+            "email": "danVoiculescu@gmail.com",
+            "phone_number": "0799876543",
+            "speciality": "Neurolog"
+          },
+          "_dirty": [],
+          "__rel__": {}
+        },
+        "date": "2023-11-11",
+        "status": "Neprezentat",
+        "links": {
+          "self": {
+            "href": "/api/medicineProject/appointment/2",
+            "type": "GET"
+          },
+          "update_id_patient": {
+            "href": "/api/medicineProject/appointment/2/id_patient",
+            "type": "PUT"
+          },
+          "update_id_doctor": {
+            "href": "/api/medicineProject/appointment/2/id_doctor",
+            "type": "PUT"
+          },
+          "update_date": {
+            "href": "/api/medicineProject/appointment/2/date",
+            "type": "PUT"
+          },
+          "update_status": {
+            "href": "/api/medicineProject/appointment/2/id_patient",
+            "type": "PUT"
+          },
+          "delete appointment": {
+            "href": "/api/medicineProject/appointment/2",
+            "type": "DELETE"
+          }
+        }
+      }
+    },
+    {
+      "appointment": {
+        "id": 3,
+        "id_patient": {
+          "__data__": {
+            "cnp": "1661212033998",
+            "lastName": "Odobescu",
+            "firstName": "Gabriel",
+            "email": "gabrielOdobescu@gmail.com",
+            "phoneNumber": "0746765911",
+            "age": 58,
+            "birthday": "1966-12-12",
+            "is_active": true
+          },
+          "_dirty": [],
+          "__rel__": {}
+        },
+        "id_doctor": {
+          "__data__": {
+            "id": 1,
+            "last_name": "Dumache",
+            "first_name": "Adrian",
+            "email": "DumacheAdrian@yahoo.com",
+            "phone_number": "0748111222",
+            "speciality": "Ortoped"
+          },
+          "_dirty": [],
+          "__rel__": {}
+        },
+        "date": "2024-01-11",
+        "status": "Onorata",
+        "links": {
+          "self": {
+            "href": "/api/medicineProject/appointment/3",
+            "type": "GET"
+          },
+          "update_id_patient": {
+            "href": "/api/medicineProject/appointment/3/id_patient",
+            "type": "PUT"
+          },
+          "update_id_doctor": {
+            "href": "/api/medicineProject/appointment/3/id_doctor",
+            "type": "PUT"
+          },
+          "update_date": {
+            "href": "/api/medicineProject/appointment/3/date",
+            "type": "PUT"
+          },
+          "update_status": {
+            "href": "/api/medicineProject/appointment/3/id_patient",
+            "type": "PUT"
+          },
+          "delete appointment": {
+            "href": "/api/medicineProject/appointment/3",
+            "type": "DELETE"
+          }
+        }
+      }
+    }
+  ]
+}

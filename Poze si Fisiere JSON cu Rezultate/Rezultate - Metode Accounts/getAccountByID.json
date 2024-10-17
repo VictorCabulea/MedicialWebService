@@ -1,0 +1,39 @@
+{
+  "account": {
+    "id": 1,
+    "last_name": "Cabulea",
+    "first_name": "Victor",
+    "user_name": "victorCabulea22",
+    "user_email": "victorCabulea@gmail.com",
+    "links": {
+      "self": {
+        "href": "/api/medicineProject/accounts/1",
+        "type": "GET"
+      },
+      "update_last_name": {
+        "href": "/api/medicineProject/accounts/1/last_name",
+        "type": "PUT"
+      },
+      "update_first_name": {
+        "href": "/api/medicineProject/accounts/1/first_name",
+        "type": "PUT"
+      },
+      "update_user_name": {
+        "href": "/api/medicineProject/accounts/1/user_name",
+        "type": "PUT"
+      },
+      "update_user_email": {
+        "href": "/api/medicineProject/accounts/1/user_email",
+        "type": "PUT"
+      },
+      "update_password": {
+        "href": "/api/medicineProject/accounts/1/password",
+        "type": "PUT"
+      },
+      "delete account": {
+        "href": "/api/medicineProject/accounts/1",
+        "type": "DELETE"
+      }
+    }
+  }
+}

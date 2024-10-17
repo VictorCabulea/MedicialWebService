@@ -1,0 +1,46 @@
+{
+  "patient": {
+    "cnp": "1990826045678",
+    "lastName": "Cabulea",
+    "firstName": "Victor",
+    "email": "victorCabulea@gmail.com",
+    "phoneNumber": "0748888555",
+    "age": 24,
+    "birthday": "1999-08-26",
+    "is_active": true,
+    "links": {
+      "self": {
+        "href": "/api/medicineProject/patients/1990826045678",
+        "type": "GET"
+      },
+      "update_cnp": {
+        "href": "/api/medicineProject/patients/1990826045678/cnp",
+        "type": "PUT"
+      },
+      "update_name": {
+        "href": "/api/medicineProject/patients/1990826045678/name",
+        "type": "PUT"
+      },
+      "update_email": {
+        "href": "/api/medicineProject/patients/1990826045678/email",
+        "type": "PUT"
+      },
+      "update_phone_number": {
+        "href": "/api/medicineProject/patients/1990826045678/phone_number",
+        "type": "PUT"
+      },
+      "update_age_and_birthday": {
+        "href": "/api/medicineProject/patients/1990826045678/age_and_birthday",
+        "type": "PUT"
+      },
+      "update_phone_is_active": {
+        "href": "/api/medicineProject/patients/1990826045678/is_active",
+        "type": "PUT"
+      },
+      "delete patient": {
+        "href": "/api/medicineProject/patients/1990826045678",
+        "type": "DELETE"
+      }
+    }
+  }
+}

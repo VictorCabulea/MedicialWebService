@@ -1,0 +1,85 @@
+DOCTORS:
+{
+  "last_name": "Dumache",
+  "first_name": "Adrian",
+  "email": "DumacheAdrian@yahoo.com",
+  "phone_number": "0748111222",
+  "speciality": "Ortoped"
+}
+{
+  "last_name": "Constantinescu",
+  "first_name": "Ovidiu",
+  "email": "constantinescuOvidiu@yahoo.com",
+  "phone_number": "0724999777",
+  "speciality": "Chirurg"
+}
+{
+  "last_name": "Marin",
+  "first_name": "Tiberiu",
+  "email": "marinTiberiu@gmail.com",
+  "phone_number": "0723555777",
+  "speciality": "Oftalmolog"
+}
+{
+  "last_name": "Zarzu",
+  "first_name": "Maria",
+  "email": "zarzuMaria@gmail.com",
+  "phone_number": "0789777444",
+  "speciality": "Pediatru"
+}
+{
+  "last_name": "Parvu",
+  "first_name": "Angela",
+  "email": "parvuAngela@gmail.com",
+  "phone_number": "0712456789",
+  "speciality": "Cardiolog"
+}
+{
+  "last_name": "Voiculescu",
+  "first_name": "Dan",
+  "email": "danVoiculescu@gmail.com",
+  "phone_number": "0799876543",
+  "speciality": "Neurolog"
+}
+
+PATIENTS:
+{
+  "cnp": "1990826045678",
+  "lastName": "Cabulea",
+  "firstName": "Victor",
+  "email": "victorCabulea@gmail.com",
+  "phoneNumber": "0748888555",
+  "age": 24,
+  "birthday": "1999-08-26",
+  "is_active":1
+}
+{
+  "cnp": "2980522044668",
+  "lastName": "Damian",
+  "firstName": "Daniela",
+  "email": "danielaDamian@gmail.com",
+  "phoneNumber": "0749666777",
+  "age": 25,
+  "birthday": "1998-05-22",
+  "is_active":1
+}
+{
+  "cnp": "1661212033998",
+  "lastName": "Odobescu",
+  "firstName": "Gabriel",
+  "email": "gabrielOdobescu@gmail.com",
+  "phoneNumber": "0746765911",
+  "age": 58,
+  "birthday": "1966-12-12",
+  "is_active":1
+}
+{
+  "cnp": "2541111031918",
+  "lastName": "Giurgiulescu",
+  "firstName": "Denisa",
+  "email": "denisaGiurgiulescu@gmail.com",
+  "phoneNumber": "0743123456",
+  "age": 70,
+  "birthday": "1954-11-11",
+  "is_active":1
+}

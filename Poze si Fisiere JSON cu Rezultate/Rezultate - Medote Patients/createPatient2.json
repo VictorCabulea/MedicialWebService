@@ -1,0 +1,46 @@
+{
+  "patient": {
+    "cnp": "2980522044668",
+    "lastName": "Damian",
+    "firstName": "Daniela",
+    "email": "danielaDamian@gmail.com",
+    "phoneNumber": "0749666777",
+    "age": 25,
+    "birthday": "1998-05-22",
+    "is_active": true,
+    "links": {
+      "self": {
+        "href": "/api/medicineProject/patients/2980522044668",
+        "type": "GET"
+      },
+      "update_cnp": {
+        "href": "/api/medicineProject/patients/2980522044668/cnp",
+        "type": "PUT"
+      },
+      "update_name": {
+        "href": "/api/medicineProject/patients/2980522044668/name",
+        "type": "PUT"
+      },
+      "update_email": {
+        "href": "/api/medicineProject/patients/2980522044668/email",
+        "type": "PUT"
+      },
+      "update_phone_number": {
+        "href": "/api/medicineProject/patients/2980522044668/phone_number",
+        "type": "PUT"
+      },
+      "update_age_and_birthday": {
+        "href": "/api/medicineProject/patients/2980522044668/age_and_birthday",
+        "type": "PUT"
+      },
+      "update_phone_is_active": {
+        "href": "/api/medicineProject/patients/2980522044668/is_active",
+        "type": "PUT"
+      },
+      "delete patient": {
+        "href": "/api/medicineProject/patients/2980522044668",
+        "type": "DELETE"
+      }
+    }
+  }
+}

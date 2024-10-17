@@ -1,0 +1,76 @@
+{
+  "consultation 1": {
+    "id": "65b50398e2c720ec7edc28ce",
+    "id_patient": 2980522044668,
+    "id_doctor": 1,
+    "date": "2024-01-05",
+    "diagnostic": "Fractura",
+    "links": {
+      "self": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce",
+        "type": "GET"
+      },
+      "update_id_patient": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce/id_patient",
+        "type": "PUT"
+      },
+      "update_id_doctor": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce/id_doctor",
+        "type": "PUT"
+      },
+      "update_date": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce/date",
+        "type": "PUT"
+      },
+      "update_diagnostic": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce/diagnostic",
+        "type": "PUT"
+      },
+      "update_investigations": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce/investigations",
+        "type": "PUT"
+      },
+      "delete consultation": {
+        "href": "/api/medicineProject/consultation/65b50398e2c720ec7edc28ce",
+        "type": "DELETE"
+      }
+    }
+  },
+  "consultation 2": {
+    "id": "65b4fd6b4d1a306bd20099f3",
+    "id_patient": 1661212033998,
+    "id_doctor": 4,
+    "date": "2024-01-11",
+    "diagnostic": "Fractura",
+    "links": {
+      "self": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3",
+        "type": "GET"
+      },
+      "update_id_patient": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3/id_patient",
+        "type": "PUT"
+      },
+      "update_id_doctor": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3/id_doctor",
+        "type": "PUT"
+      },
+      "update_date": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3/date",
+        "type": "PUT"
+      },
+      "update_diagnostic": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3/diagnostic",
+        "type": "PUT"
+      },
+      "update_investigations": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3/investigations",
+        "type": "PUT"
+      },
+      "delete consultation": {
+        "href": "/api/medicineProject/consultation/65b4fd6b4d1a306bd20099f3",
+        "type": "DELETE"
+      }
+    }
+  }
+}

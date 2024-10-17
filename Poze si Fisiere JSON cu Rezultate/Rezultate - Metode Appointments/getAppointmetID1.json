@@ -1,0 +1,59 @@
+{
+  "appointment": {
+    "id": 1,
+    "id_patient": {
+      "__data__": {
+        "cnp": "1990826045678",
+        "lastName": "Cabulea",
+        "firstName": "Victor",
+        "email": "victorCabulea@gmail.com",
+        "phoneNumber": "0748888555",
+        "age": 24,
+        "birthday": "1999-08-26",
+        "is_active": true
+      },
+      "_dirty": [],
+      "__rel__": {}
+    },
+    "id_doctor": {
+      "__data__": {
+        "id": 1,
+        "last_name": "Dumache",
+        "first_name": "Adrian",
+        "email": "DumacheAdrian@yahoo.com",
+        "phone_number": "0748111222",
+        "speciality": "Ortoped"
+      },
+      "_dirty": [],
+      "__rel__": {}
+    },
+    "date": "2024-01-27",
+    "status": "Onorata",
+    "links": {
+      "self": {
+        "href": "/api/medicineProject/appointment/1",
+        "type": "GET"
+      },
+      "update_id_patient": {
+        "href": "/api/medicineProject/appointment/1/id_patient",
+        "type": "PUT"
+      },
+      "update_id_doctor": {
+        "href": "/api/medicineProject/appointment/1/id_doctor",
+        "type": "PUT"
+      },
+      "update_date": {
+        "href": "/api/medicineProject/appointment/1/date",
+        "type": "PUT"
+      },
+      "update_status": {
+        "href": "/api/medicineProject/appointment/1/id_patient",
+        "type": "PUT"
+      },
+      "delete appointment": {
+        "href": "/api/medicineProject/appointment/1",
+        "type": "DELETE"
+      }
+    }
+  }
+}
